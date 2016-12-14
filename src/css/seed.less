@@ -124,7 +124,7 @@ body {
   .swatch {
     margin-top: 5px;
     width: 14%;
-    max-width: 60px;
+    max-width: 62px;
     height: 10px;
     float: left;
     text-align: center;
@@ -177,27 +177,8 @@ body {
   padding-top: 5px;
 }
 
-.permits {
-  padding-top: 10px;
-  position: relative;
 
-  .note {
-    padding-bottom: 10px;
-  }
-
-  .ct-series-a {
-    path, line {
-      stroke: @light;
-    }
-  }
-  .ct-series-b {
-    path, line {
-      stroke: @dark;
-    }
-  }
-}
-
-.aaa {
+.injuries {
   .ct-label {
     color: rgba(0,0,0,.5);
 
@@ -233,107 +214,5 @@ body {
     foreignobject, .ct-label {
       width: 200px !important;
     }
-  }
-}
-
-.citations {
-  position: relative;
-
-  .ct-bar {
-    stroke-width: 30px;
-
-    @media @mobile {
-      stroke-width: 20px;
-    }
-  }
-
-  .ct-series-a line {
-    stroke: @light;
-    // &:nth-child(1), &:nth-child(3) {
-    //   stroke: @med;
-    // }
-  }
-}
-
-.inline {
-  width: 50%;
-  float: left;
-}
-
-.testing {
-  padding-top: 10px;
-  width: 100%;
-  display: inline-block;
-
-  .inner {
-    max-width: 435px;
-    margin: auto;
-  }
-
-  #ct-testing-1, #ct-testing-2 {
-    .ct-series-a path {
-      fill: @dark;
-    }
-    .ct-series-b path {
-      fill: @light;
-    }
-  }
-
-  .subtitle {
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-}
-
-
-.income {
-  position: relative;
-
-  .note {
-    padding-top: 15px;
-    padding-bottom: 0;
-  }
-
-  .ylabel {
-    left: -33px;
-  }
-  .ct-bar {
-    stroke-width: 25px;
-
-    @media @mobile {
-      stroke-width: 20px;
-    }
-  }
-  .ct-vertical {
-    font-weight: bold;
-    color: rgba(0,0,0,.6);
-  }
-  .ct-horizontal {
-    margin-left: -18px;
-    color: rgba(0,0,0,.5);
-  }
-  .ct-horizontal {
-    font-weight: normal;
-  }
-  .ct-series-a line {
-    stroke: #edf8b1;
-  }
-  .ct-series-b line {
-    stroke: #c7e9b4;
-  }
-  .ct-series-c line {
-    stroke: #7fcdbb;
-  }
-  .ct-series-d line {
-    stroke: #41b6c4;
-  }
-  .ct-series-e line {
-    stroke: #1d91c0;
-  }
-  .ct-series-f line {
-    stroke: #225ea8;
-  }
-  .ct-series-g line {
-    stroke: #253494;
   }
 }
