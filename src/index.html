@@ -12,7 +12,18 @@
 
     <responsive-child>
     
+    <div class="buttons"> 
+      GAME: <%
+        for(i = 1; i <17; i++){%>
+        <button type="button" id="button">
+        <%= i%>
+        <% } %>
+        </button>
+    </div>
+
+    <div class="chart" id="chart-box">
      <%= t.include("js/_detail.html") %>
+    </div>
     
     </responsive-child>
 
