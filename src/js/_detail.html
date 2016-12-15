@@ -258,8 +258,18 @@ var game16 = {
 
 %>
 
+
 <%
 
-var chart; 
-}
+	var game = game01;
+
+	for (var injuries in game){ %>
+		<div>
+		<%=injuries%>: 
+	<% for(var i=0; i<injuries.length; i++){ %>
+					<%= "&bigstar;"%> <%
+				}%>
+	</div>
+		<%
+	}
 %>
