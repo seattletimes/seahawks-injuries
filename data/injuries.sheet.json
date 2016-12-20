@@ -1,0 +1,27 @@
+[
+  {
+    "game": 5,
+    "player": 31,
+    "injuries": "hamstring"
+  },
+  {
+    "game": 6,
+    "player": 31,
+    "injuries": "hamstring"
+  },
+  {
+    "game": 5,
+    "player": 55,
+    "injuries": "hamstring"
+  },
+  {
+    "game": 7,
+    "player": 72,
+    "injuries": "knee"
+  },
+  {
+    "game": 7,
+    "player": 31,
+    "injuries": "hamstring"
+  }
+]

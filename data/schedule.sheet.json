@@ -1,0 +1,353 @@
+[
+  {
+    "undefined": "Player",
+    "Game 1: Vs. Dolphins": "Injury",
+    "Game 2: Vs. Rams": "Injury",
+    "Game 3: Vs. 49ers": "Injury",
+    "Game 4: Vs. Jets": "Injury",
+    "Game 5: Vs. Falcons": "Injury",
+    "Game 6: Vs. Cardinals": "Injury",
+    "Game 7: Vs. Saints": "Injury",
+    "Game 8: Vs. Bills": "Injury",
+    "Game 9: Vs. Patriots": "Injury",
+    "Game 10: Vs. Eagles": "Injury"
+  },
+  {
+    "undefined": "Cliff Avril",
+    "position": "DE",
+    "player #": 56
+  },
+  {
+    "undefined": "Doug Baldwin",
+    "position": "WR",
+    "player #": 89
+  },
+  {
+    "undefined": "Michael Bennett",
+    "position": "DE",
+    "player #": 72,
+    "Game 7: Vs. Saints": "knee",
+    "Game 8: Vs. Bills": "knee",
+    "Game 9: Vs. Patriots": "knee",
+    "Game 10: Vs. Eagles": "knee",
+    "Game 11: Vs. Buccaneers": "knee"
+  },
+  {
+    "undefined": "Trevone Boykin",
+    "position": "QB",
+    "player #": 2
+  },
+  {
+    "undefined": "Justin Britt",
+    "position": "c",
+    "player #": 68
+  },
+  {
+    "undefined": "Kam Chancellor",
+    "position": "ss",
+    "player #": 31,
+    "Game 5: Vs. Falcons": "hamstring",
+    "Game 6: Vs. Cardinals": "hamstring",
+    "Game 7: Vs. Saints": "hamstring",
+    "Game 8: Vs. Bills": "hamstring"
+  },
+  {
+    "undefined": "Frank Clark",
+    "position": "DE",
+    "player #": 55,
+    "Game 5: Vs. Falcons": "hamstring"
+  },
+  {
+    "undefined": "Alex Collins",
+    "position": "RB",
+    "player #": 36
+  },
+  {
+    "undefined": "Brock Coyle",
+    "position": "LB",
+    "player #": 52,
+    "Game 11: Vs. Buccaneers": "foot",
+    "Game 12: Vs. Panthers": "foot"
+  },
+  {
+    "undefined": "DeAndre Elliott",
+    "position": "CB",
+    "player #": 21,
+    "Game 7: Vs. Saints": "hamstring",
+    "Game 8: Vs. Bills": "hamstring"
+  },
+  {
+    "undefined": "George Fant",
+    "position": "t",
+    "player #": 74
+  },
+  {
+    "undefined": "George Farmer",
+    "position": "rb",
+    "player #": 39
+  },
+  {
+    "undefined": "Nolan Frese",
+    "position": "LS",
+    "player #": 48
+  },
+  {
+    "undefined": "Garry Gilliam",
+    "position": "T",
+    "player #": 79
+  },
+  {
+    "undefined": "Mark Glowinski",
+    "position": "G",
+    "player #": 63
+  },
+  {
+    "undefined": "Jimmy Graham",
+    "position": "TE",
+    "player #": 88
+  },
+  {
+    "undefined": "Steven Hauschka",
+    "position": "K",
+    "player #": 4
+  },
+  {
+    "undefined": "Joey Hunt",
+    "position": "c",
+    "player #": 53
+  },
+  {
+    "undefined": "Germain Ifedi",
+    "position": "G",
+    "player #": 76,
+    "Game 1: Vs. Dolphins": "ankle",
+    "Game 2: Vs. Rams": "ankle",
+    "Game 3: Vs. 49ers": "ankle"
+  },
+  {
+    "undefined": "Quinton Jefferson",
+    "position": "DT",
+    "player #": 99,
+    "Game 3: Vs. 49ers": "hand",
+    "Game 5: Vs. Falcons": "hand",
+    "Game 6: Vs. Cardinals": "knee"
+  },
+  {
+    "undefined": "John Jenkins",
+    "position": "DT",
+    "player #": 92
+  },
+  {
+    "undefined": "Jermaine Kearse",
+    "position": "WR",
+    "player #": 15
+  },
+  {
+    "undefined": "Jeremy Lane",
+    "position": "CB",
+    "player #": 20
+  },
+  {
+    "undefined": "Tyler Lockett",
+    "position": "WR",
+    "player #": 16
+  },
+  {
+    "undefined": "Cassius Marsh",
+    "position": "DE",
+    "player #": 91
+  },
+  {
+    "undefined": "McCray, Kelcie",
+    "position": "SS",
+    "player #": 33
+  },
+  {
+    "undefined": "Tony McDaniel",
+    "position": "DT",
+    "player #": 93
+  },
+  {
+    "undefined": "Dewey McDonald",
+    "position": "LB",
+    "player #": 41
+  },
+  {
+    "undefined": "Tanner McEvoy",
+    "position": "WR",
+    "player #": 19
+  },
+  {
+    "undefined": "Damontre Moore",
+    "position": "DE",
+    "player #": 97,
+    "Game 11: Vs. Buccaneers": "foot"
+  },
+  {
+    "undefined": "Mike Morgan",
+    "position": "LB",
+    "player #": 57
+  },
+  {
+    "undefined": "Rees Odhiambo",
+    "position": "G",
+    "player #": 70
+  },
+  {
+    "undefined": "Kevin Pierre-Louis",
+    "position": "LB",
+    "player #": 58,
+    "Game 6: Vs. Cardinals": "ankle",
+    "Game 7: Vs. Saints": "ankle",
+    "Game 10: Vs. Eagles": "hamstring"
+  },
+  {
+    "undefined": "Troymaine Pope",
+    "position": "RB",
+    "player #": 43,
+    "Game 11: Vs. Buccaneers": "ankle"
+  },
+  {
+    "undefined": "Tyvis Powell",
+    "position": "S",
+    "player #": 40
+  },
+  {
+    "undefined": "C.J. Prosise",
+    "position": "RB",
+    "player #": 22,
+    "Game 2: Vs. Rams": "wrist",
+    "Game 3: Vs. 49ers": "wrist",
+    "Game 4: Vs. Jets": "wrist",
+    "Game 5: Vs. Falcons": "wrist",
+    "Game 11: Vs. Buccaneers": "shoulder",
+    "Game 12: Vs. Panthers": "shoulder"
+  },
+  {
+    "undefined": "Thomas Rawls",
+    "position": "RB",
+    "player #": 34,
+    "Game 3: Vs. 49ers": "shin",
+    "Game 4: Vs. Jets": "shin",
+    "Game 5: Vs. Falcons": "shin",
+    "Game 6: Vs. Cardinals": "shin",
+    "Game 7: Vs. Saints": "shin",
+    "Game 8: Vs. Bills": "shin",
+    "Game 9: Vs. Patriots": "shin"
+  },
+  {
+    "undefined": "Jarran Reed",
+    "position": "DT",
+    "player #": 90,
+    "Game 4: Vs. Jets": "hip"
+  },
+  {
+    "undefined": "Paul Richardson",
+    "position": "WR",
+    "player #": 10,
+    "Game 12: Vs. Panthers": "hamstring"
+  },
+  {
+    "undefined": "Ahtyba Rubin",
+    "position": "DT",
+    "player #": 77
+  },
+  {
+    "undefined": "Jon Ryan",
+    "position": "P",
+    "player #": 9
+  },
+  {
+    "undefined": "DeShawn Shead",
+    "position": "DB",
+    "player #": 35,
+    "Game 11: Vs. Buccaneers": "hamstring"
+  },
+  {
+    "undefined": "Richard Sherman",
+    "position": "CB",
+    "player #": 25
+  },
+  {
+    "undefined": "Tharold Simon",
+    "position": "CB",
+    "player #": "27*",
+    "Game 1: Vs. Dolphins": "knee"
+  },
+  {
+    "undefined": "Bradley Sowell",
+    "position": "T",
+    "player #": 78,
+    "Game 7: Vs. Saints": "knee",
+    "Game 8: Vs. Bills": "knee",
+    "Game 9: Vs. Patriots": "knee"
+  },
+  {
+    "undefined": "Steven Terrell",
+    "position": "FS",
+    "player #": 23
+  },
+  {
+    "undefined": "Earl Thomas",
+    "position": "FS",
+    "player #": 29,
+    "Game 11: Vs. Buccaneers": "hamstring"
+  },
+  {
+    "undefined": "Neiko Thorpe",
+    "position": "CB",
+    "player #": 27
+  },
+  {
+    "undefined": "Jordan Tripp",
+    "position": "LB",
+    "player #": 59,
+    "Game 12: Vs. Panthers": "thigh"
+  },
+  {
+    "undefined": "Will Tukuafu",
+    "position": "FB",
+    "player #": 46
+  },
+  {
+    "undefined": "Nick Vannett",
+    "position": "TE",
+    "player #": 81,
+    "Game 1: Vs. Dolphins": "ankle",
+    "Game 2: Vs. Rams": "ankle",
+    "Game 3: Vs. 49ers": "ankle",
+    "Game 4: Vs. Jets": "ankle"
+  },
+  {
+    "undefined": "Bobby Wagner",
+    "position": "LB",
+    "player #": 54
+  },
+  {
+    "undefined": "Brandon Williams",
+    "position": "TE",
+    "player #": 86
+  },
+  {
+    "undefined": "Luke Willson",
+    "position": "TE",
+    "player #": 82,
+    "Game 6: Vs. Cardinals": "knee",
+    "Game 7: Vs. Saints": "knee",
+    "Game 8: Vs. Bills": "knee",
+    "Game 9: Vs. Patriots": "knee"
+  },
+  {
+    "undefined": "Russell Wilson",
+    "position": "QB",
+    "player #": 3
+  },
+  {
+    "undefined": "K.J. Wright",
+    "position": "LB",
+    "player #": 50
+  },
+  {
+    "undefined": "played the game"
+  }
+]
