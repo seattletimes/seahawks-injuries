@@ -14,12 +14,23 @@
     injuries[type] += 1;
   });
 %>
+
 <ul>
 <%
   for (var type in injuries) {
 %>
-  <li> <%= type %>: <%= injuries[type] %>
+  <li> <%= type %>: 
+
+<!-- icons for number of injuries-->
+<%
+  for (var n = 0; n < injuries[type]; n++)
+  { %>
+    <%= "&bigstar;"%>
+  <%}%>
+<!-- end icons -->
+
 <%
   }
 %>
 </ul>
+

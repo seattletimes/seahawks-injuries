@@ -1,0 +1,11 @@
+<% for (var injury in data) { %>
+  <div>
+    <%= injury %>: 
+    <% for (var i = 0; i < data[injury].selected; i++) { %>
+      <span class="selectedStar">&bigstar;</span>
+    <% } %>
+    <% for (var i = 0; i < data[injury].notSelected; i++) { %>
+      <span class="notSelectedStar">&bigstar;</span>
+    <% } %>
+  </div>
+<% } %>
