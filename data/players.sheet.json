@@ -1,14 +1,282 @@
 {
+  "2": {
+    "name": "Trevone Boykin",
+    "position": "QB",
+    "team": "offense"
+  },
+  "3": {
+    "name": "Russell Wilson",
+    "position": "QB",
+    "team": "offense"
+  },
+  "4": {
+    "name": "Steven Hauschka",
+    "position": "K",
+    "team": "special"
+  },
+  "9": {
+    "name": "Jon Ryan",
+    "position": "P",
+    "team": "special"
+  },
+  "10": {
+    "name": "Paul Richardson",
+    "position": "WR",
+    "team": "offense"
+  },
+  "15": {
+    "name": "Jermaine Kearse",
+    "position": "WR",
+    "team": "offense"
+  },
+  "16": {
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "team": "offense"
+  },
+  "19": {
+    "name": "Tanner McEvoy",
+    "position": "WR",
+    "team": "offense"
+  },
+  "20": {
+    "name": "Jeremy Lane",
+    "position": "CB",
+    "team": "defense"
+  },
+  "21": {
+    "name": "DeAndre Elliott",
+    "position": "CB",
+    "team": "defense"
+  },
+  "22": {
+    "name": "C.J. Prosise",
+    "position": "RB",
+    "team": "offense"
+  },
+  "23": {
+    "name": "Steven Terrell",
+    "position": "FS",
+    "team": "defense"
+  },
+  "25": {
+    "name": "Richard Sherman",
+    "position": "CB",
+    "team": "defense"
+  },
+  "29": {
+    "name": "Earl Thomas",
+    "position": "FS",
+    "team": "defense"
+  },
   "31": {
     "name": "Kam Chancellor",
-    "position": "SS"
+    "position": "ss",
+    "team": "defense"
+  },
+  "33": {
+    "name": "McCray, Kelcie",
+    "position": "SS",
+    "team": "defense"
+  },
+  "34": {
+    "name": "Thomas Rawls",
+    "position": "RB",
+    "team": "offense"
+  },
+  "35": {
+    "name": "DeShawn Shead",
+    "position": "DB",
+    "team": "defense"
+  },
+  "36": {
+    "name": "Alex Collins",
+    "position": "RB",
+    "team": "offense"
+  },
+  "39": {
+    "name": "George Farmer",
+    "position": "rb",
+    "team": "offense"
+  },
+  "40": {
+    "name": "Tyvis Powell",
+    "position": "S",
+    "team": "defense"
+  },
+  "41": {
+    "name": "Dewey McDonald",
+    "position": "LB",
+    "team": "defense"
+  },
+  "43": {
+    "name": "Troymaine Pope",
+    "position": "RB",
+    "team": "offense"
+  },
+  "46": {
+    "name": "Will Tukuafu",
+    "position": "FB",
+    "team": "offense"
+  },
+  "48": {
+    "name": "Nolan Frese",
+    "position": "LS",
+    "team": "special"
+  },
+  "50": {
+    "name": "K.J. Wright",
+    "position": "LB",
+    "team": "defense"
+  },
+  "52": {
+    "name": "Brock Coyle",
+    "position": "LB",
+    "team": "defense"
+  },
+  "53": {
+    "name": "Joey Hunt",
+    "position": "c",
+    "team": "offense"
+  },
+  "54": {
+    "name": "Bobby Wagner",
+    "position": "LB",
+    "team": "defense"
   },
   "55": {
     "name": "Frank Clark",
-    "position": "DE"
+    "position": "DE",
+    "team": "defense"
+  },
+  "56": {
+    "name": "Cliff Avril",
+    "position": "DE",
+    "team": "defense"
+  },
+  "57": {
+    "name": "Mike Morgan",
+    "position": "LB",
+    "team": "defense"
+  },
+  "58": {
+    "name": "Kevin Pierre-Louis",
+    "position": "LB",
+    "team": "defense"
+  },
+  "59": {
+    "name": "Jordan Tripp",
+    "position": "LB",
+    "team": "defense"
+  },
+  "63": {
+    "name": "Mark Glowinski",
+    "position": "G",
+    "team": "offense"
+  },
+  "68": {
+    "name": "Justin Britt",
+    "position": "c",
+    "team": "offense"
+  },
+  "70": {
+    "name": "Rees Odhiambo",
+    "position": "G",
+    "team": "offense"
   },
   "72": {
     "name": "Michael Bennett",
-    "position": "DE"
+    "position": "DE",
+    "team": "defense"
+  },
+  "74": {
+    "name": "George Fant",
+    "position": "t",
+    "team": "offense"
+  },
+  "76": {
+    "name": "Germain Ifedi",
+    "position": "G",
+    "team": "offense"
+  },
+  "77": {
+    "name": "Ahtyba Rubin",
+    "position": "DT",
+    "team": "defense"
+  },
+  "78": {
+    "name": "Bradley Sowell",
+    "position": "T",
+    "team": "offense"
+  },
+  "79": {
+    "name": "Garry Gilliam",
+    "position": "T",
+    "team": "offense"
+  },
+  "81": {
+    "name": "Nick Vannett",
+    "position": "TE",
+    "team": "offense"
+  },
+  "82": {
+    "name": "Luke Willson",
+    "position": "TE",
+    "team": "offense"
+  },
+  "86": {
+    "name": "Brandon Williams",
+    "position": "TE",
+    "team": "offense"
+  },
+  "88": {
+    "name": "Jimmy Graham",
+    "position": "TE",
+    "team": "offense"
+  },
+  "89": {
+    "name": "Doug Baldwin",
+    "position": "WR",
+    "team": "offense"
+  },
+  "90": {
+    "name": "Jarran Reed",
+    "position": "DT",
+    "team": "defense"
+  },
+  "91": {
+    "name": "Cassius Marsh",
+    "position": "DE",
+    "team": "defense"
+  },
+  "92": {
+    "name": "John Jenkins",
+    "position": "DT",
+    "team": "defense"
+  },
+  "93": {
+    "name": "Tony McDaniel",
+    "position": "DT",
+    "team": "defense"
+  },
+  "97": {
+    "name": "Damontre Moore",
+    "position": "DE",
+    "team": "defense"
+  },
+  "99": {
+    "name": "Quinton Jefferson",
+    "position": "DT",
+    "team": "defense"
+  },
+  "27A": {
+    "name": "Tharold Simon",
+    "position": "CB",
+    "team": "defense"
+  },
+  "27B": {
+    "name": "Neiko Thorpe",
+    "position": "CB",
+    "team": "defense"
   }
 }

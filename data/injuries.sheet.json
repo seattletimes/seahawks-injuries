@@ -1,52 +1,374 @@
 [
   {
     "game": 1,
-    "player": 31,
-    "injuries": "hamstring"
+    "player": 76,
+    "injuries": "foot",
+    "specific": "ankle"
+  },
+  {
+    "game": 1,
+    "player": "27A",
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 1,
+    "player": 81,
+    "injuries": "foot",
+    "specific": "ankle"
   },
   {
     "game": 2,
-    "player": 31,
-    "injuries": "hamstring"
+    "player": 76,
+    "injuries": "foot",
+    "specific": "ankle"
+  },
+  {
+    "game": 2,
+    "player": 22,
+    "injuries": "hand",
+    "specific": "wrist"
+  },
+  {
+    "game": 2,
+    "player": 81,
+    "injuries": "foot",
+    "specific": "ankle"
   },
   {
     "game": 3,
-    "player": 31,
-    "injuries": "hamstring"
+    "player": 76,
+    "injuries": "foot",
+    "specific": "ankle"
+  },
+  {
+    "game": 3,
+    "player": 99,
+    "injuries": "hand",
+    "specific": "hand"
+  },
+  {
+    "game": 3,
+    "player": 22,
+    "injuries": "hand",
+    "specific": "wrist"
+  },
+  {
+    "game": 3,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "shin"
+  },
+  {
+    "game": 3,
+    "player": 81,
+    "injuries": "foot",
+    "specific": "ankle"
   },
   {
     "game": 4,
+    "player": 22,
+    "injuries": "hand",
+    "specific": "wrist"
+  },
+  {
+    "game": 4,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
+  },
+  {
+    "game": 4,
+    "player": 90,
+    "injuries": "hamstring",
+    "specific": "hip"
+  },
+  {
+    "game": 4,
+    "player": 81,
+    "injuries": "foot",
+    "specific": "ankle"
+  },
+  {
+    "game": 5,
+    "player": 31,
+    "injuries": "hamstring",
+    "specific": "groin"
+  },
+  {
+    "game": 5,
     "player": 55,
-    "injuries": "hamstring"
+    "injuries": "hamstring",
+    "specific": "hamstring"
   },
   {
     "game": 5,
-    "player": 31,
-    "injuries": "hamstring"
+    "player": 99,
+    "injuries": "hand",
+    "specific": "thumb"
   },
   {
     "game": 5,
-    "player": 31,
-    "injuries": "knee"
+    "player": 22,
+    "injuries": "hand",
+    "specific": "wrist"
+  },
+  {
+    "game": 5,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
   },
   {
     "game": 6,
     "player": 31,
-    "injuries": "hamstring"
+    "injuries": "hamstring",
+    "specific": "groin"
   },
   {
-    "game": 5,
-    "player": 55,
-    "injuries": "hamstring"
+    "game": 6,
+    "player": 99,
+    "injuries": "hand",
+    "specific": "thumb"
+  },
+  {
+    "game": 6,
+    "player": 58,
+    "injuries": "ankle",
+    "specific": "ankle"
+  },
+  {
+    "game": 6,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
+  },
+  {
+    "game": 6,
+    "player": 82,
+    "injuries": "knee",
+    "specific": "knee"
   },
   {
     "game": 7,
     "player": 72,
-    "injuries": "knee"
+    "injuries": "knee",
+    "specific": "knee"
   },
   {
     "game": 7,
     "player": 31,
-    "injuries": "hamstring"
+    "injuries": "hamstring",
+    "specific": "groin"
+  },
+  {
+    "game": 7,
+    "player": 21,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 7,
+    "player": 58,
+    "injuries": "ankle",
+    "specific": "ankle"
+  },
+  {
+    "game": 7,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
+  },
+  {
+    "game": 7,
+    "player": 78,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 7,
+    "player": 82,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 8,
+    "player": 72,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 8,
+    "player": 31,
+    "injuries": "hamstring",
+    "specific": "groin"
+  },
+  {
+    "game": 8,
+    "player": 21,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 8,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
+  },
+  {
+    "game": 8,
+    "player": 78,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 8,
+    "player": 82,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 9,
+    "player": 72,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 9,
+    "player": 34,
+    "injuries": "foot",
+    "specific": "fibula"
+  },
+  {
+    "game": 9,
+    "player": 78,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 9,
+    "player": 82,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 10,
+    "player": 72,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 10,
+    "player": 58,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 11,
+    "player": 72,
+    "injuries": "knee",
+    "specific": "knee"
+  },
+  {
+    "game": 11,
+    "player": 52,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 11,
+    "player": 97,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 11,
+    "player": 43,
+    "injuries": "ankle",
+    "specific": "ankle"
+  },
+  {
+    "game": 11,
+    "player": 35,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 11,
+    "player": 29,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 12,
+    "player": 52,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 12,
+    "player": 22,
+    "injuries": "shoulder",
+    "specific": "shoulder"
+  },
+  {
+    "game": 12,
+    "player": 10,
+    "injuries": "hamstring",
+    "specific": "hamstring"
+  },
+  {
+    "game": 12,
+    "player": 59,
+    "injuries": "hamstring",
+    "specific": "thigh"
+  },
+  {
+    "game": 13,
+    "player": 52,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 13,
+    "player": 97,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 13,
+    "player": 22,
+    "injuries": "shoulder",
+    "specific": "shoulder"
+  },
+  {
+    "game": 13,
+    "player": 46,
+    "injuries": "head",
+    "specific": "concussion"
+  },
+  {
+    "game": 14,
+    "player": 97,
+    "injuries": "foot",
+    "specific": "foot"
+  },
+  {
+    "game": 14,
+    "player": 22,
+    "injuries": "shoulder",
+    "specific": "shoulder"
+  },
+  {
+    "game": 15,
+    "player": 22,
+    "injuries": "shoulder",
+    "specific": "shoulder"
+  },
+  {
+    "game": 16,
+    "player": 22,
+    "injuries": "shoulder",
+    "specific": "shoulder"
   }
 ]

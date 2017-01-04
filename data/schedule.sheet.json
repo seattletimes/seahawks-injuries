@@ -9,7 +9,7 @@
     "Game 6: Vs. Cardinals": "Injury",
     "Game 7: Vs. Saints": "Injury",
     "Game 8: Vs. Bills": "Injury",
-    "Game 9: Vs. Patriots": "Injury",
+    "Game 9: Vs. Patriots (New Englnd)": "Injury",
     "Game 10: Vs. Eagles": "Injury"
   },
   {
@@ -28,9 +28,9 @@
     "player #": 72,
     "Game 7: Vs. Saints": "knee",
     "Game 8: Vs. Bills": "knee",
-    "Game 9: Vs. Patriots": "knee",
+    "Game 9: Vs. Patriots (New Englnd)": "knee",
     "Game 10: Vs. Eagles": "knee",
-    "Game 11: Vs. Buccaneers": "knee"
+    "Game 11: Vs. Buccaneers (tampa bay)": "knee"
   },
   {
     "undefined": "Trevone Boykin",
@@ -46,10 +46,10 @@
     "undefined": "Kam Chancellor",
     "position": "ss",
     "player #": 31,
-    "Game 5: Vs. Falcons": "hamstring",
-    "Game 6: Vs. Cardinals": "hamstring",
-    "Game 7: Vs. Saints": "hamstring",
-    "Game 8: Vs. Bills": "hamstring"
+    "Game 5: Vs. Falcons": "groin",
+    "Game 6: Vs. Cardinals": "groin",
+    "Game 7: Vs. Saints": "groin",
+    "Game 8: Vs. Bills": "groin"
   },
   {
     "undefined": "Frank Clark",
@@ -66,8 +66,9 @@
     "undefined": "Brock Coyle",
     "position": "LB",
     "player #": 52,
-    "Game 11: Vs. Buccaneers": "foot",
-    "Game 12: Vs. Panthers": "foot"
+    "Game 11: Vs. Buccaneers (tampa bay)": "foot",
+    "Game 12: Vs. Panthers (carolina)": "foot",
+    "Game 13: Vs. Packers (Green Bay)": "foot"
   },
   {
     "undefined": "DeAndre Elliott",
@@ -129,8 +130,8 @@
     "position": "DT",
     "player #": 99,
     "Game 3: Vs. 49ers": "hand",
-    "Game 5: Vs. Falcons": "hand",
-    "Game 6: Vs. Cardinals": "knee"
+    "Game 5: Vs. Falcons": "thumb",
+    "Game 6: Vs. Cardinals": "thumb"
   },
   {
     "undefined": "John Jenkins",
@@ -181,7 +182,9 @@
     "undefined": "Damontre Moore",
     "position": "DE",
     "player #": 97,
-    "Game 11: Vs. Buccaneers": "foot"
+    "Game 11: Vs. Buccaneers (tampa bay)": "foot",
+    "Game 13: Vs. Packers (Green Bay)": "foot",
+    "Game 14: Vs. Rams": "foot"
   },
   {
     "undefined": "Mike Morgan",
@@ -205,7 +208,7 @@
     "undefined": "Troymaine Pope",
     "position": "RB",
     "player #": 43,
-    "Game 11: Vs. Buccaneers": "ankle"
+    "Game 11: Vs. Buccaneers (tampa bay)": "ankle"
   },
   {
     "undefined": "Tyvis Powell",
@@ -220,20 +223,24 @@
     "Game 3: Vs. 49ers": "wrist",
     "Game 4: Vs. Jets": "wrist",
     "Game 5: Vs. Falcons": "wrist",
-    "Game 11: Vs. Buccaneers": "shoulder",
-    "Game 12: Vs. Panthers": "shoulder"
+    "Game 11: Vs. Buccaneers (tampa bay)": "shoulder",
+    "Game 12: Vs. Panthers (carolina)": "shoulder",
+    "Game 13: Vs. Packers (Green Bay)": "shoulder",
+    "Game 14: Vs. Rams": "shoulder",
+    "Game 15: Vs. Cardinals (arizona)": "shoulder",
+    "Game 16: Vs. 49ers": "shoulder"
   },
   {
     "undefined": "Thomas Rawls",
     "position": "RB",
     "player #": 34,
     "Game 3: Vs. 49ers": "shin",
-    "Game 4: Vs. Jets": "shin",
-    "Game 5: Vs. Falcons": "shin",
-    "Game 6: Vs. Cardinals": "shin",
-    "Game 7: Vs. Saints": "shin",
-    "Game 8: Vs. Bills": "shin",
-    "Game 9: Vs. Patriots": "shin"
+    "Game 4: Vs. Jets": "fibula",
+    "Game 5: Vs. Falcons": "fibula",
+    "Game 6: Vs. Cardinals": "fibula",
+    "Game 7: Vs. Saints": "fibula",
+    "Game 8: Vs. Bills": "fibula",
+    "Game 9: Vs. Patriots (New Englnd)": "fibula"
   },
   {
     "undefined": "Jarran Reed",
@@ -245,7 +252,7 @@
     "undefined": "Paul Richardson",
     "position": "WR",
     "player #": 10,
-    "Game 12: Vs. Panthers": "hamstring"
+    "Game 12: Vs. Panthers (carolina)": "hamstring"
   },
   {
     "undefined": "Ahtyba Rubin",
@@ -261,7 +268,7 @@
     "undefined": "DeShawn Shead",
     "position": "DB",
     "player #": 35,
-    "Game 11: Vs. Buccaneers": "hamstring"
+    "Game 11: Vs. Buccaneers (tampa bay)": "hamstring"
   },
   {
     "undefined": "Richard Sherman",
@@ -271,7 +278,7 @@
   {
     "undefined": "Tharold Simon",
     "position": "CB",
-    "player #": "27*",
+    "player #": "27A",
     "Game 1: Vs. Dolphins": "knee"
   },
   {
@@ -280,7 +287,7 @@
     "player #": 78,
     "Game 7: Vs. Saints": "knee",
     "Game 8: Vs. Bills": "knee",
-    "Game 9: Vs. Patriots": "knee"
+    "Game 9: Vs. Patriots (New Englnd)": "knee"
   },
   {
     "undefined": "Steven Terrell",
@@ -291,23 +298,24 @@
     "undefined": "Earl Thomas",
     "position": "FS",
     "player #": 29,
-    "Game 11: Vs. Buccaneers": "hamstring"
+    "Game 11: Vs. Buccaneers (tampa bay)": "hamstring"
   },
   {
     "undefined": "Neiko Thorpe",
     "position": "CB",
-    "player #": 27
+    "player #": "27B"
   },
   {
     "undefined": "Jordan Tripp",
     "position": "LB",
     "player #": 59,
-    "Game 12: Vs. Panthers": "thigh"
+    "Game 12: Vs. Panthers (carolina)": "thigh"
   },
   {
     "undefined": "Will Tukuafu",
     "position": "FB",
-    "player #": 46
+    "player #": 46,
+    "Game 13: Vs. Packers (Green Bay)": "concussion"
   },
   {
     "undefined": "Nick Vannett",
@@ -335,7 +343,7 @@
     "Game 6: Vs. Cardinals": "knee",
     "Game 7: Vs. Saints": "knee",
     "Game 8: Vs. Bills": "knee",
-    "Game 9: Vs. Patriots": "knee"
+    "Game 9: Vs. Patriots (New Englnd)": "knee"
   },
   {
     "undefined": "Russell Wilson",
@@ -348,6 +356,9 @@
     "player #": 50
   },
   {
-    "undefined": "played the game"
+    "undefined": "played the game",
+    "position": "Offense",
+    "player #": "Defense",
+    "Game 1: Vs. Dolphins": "special team"
   }
 ]

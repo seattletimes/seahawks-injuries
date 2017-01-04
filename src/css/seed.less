@@ -1,225 +1,30 @@
 @import "seattletimes";
 @import (inline) "npm://chartist/dist/chartist.min.css";
 
-@light: #41b6c4;
-@med: #2c7fb8;
-@dark: #253494;
-@highlight: #e34a33;
-
-body {
-  max-width: 630px;
-  font-family: @df-sans;
-}
-
-.outer {
-  margin: 20px 0;
-}
-
-.tiny {
-  font-size: 9px;
-  padding-right: 2px;
-}
-
-.title {
-  color: rgba(0,0,0,.5);
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 5px;
-
-  @media @mobile {
-    font-size: 18px;
-    padding-bottom: 10px;
-    line-height: 1.3em;
-  }
-}
-
-.chatter {
-  font-size: 13px;
-  padding-bottom: 10px;
-  color: rgba(0,0,0,.5);
-  font-style: italic;
-
-  @media @mobile {
-    font-size: 12px;
-  }
-}
-
-.note {
-  font-size: 12px;
-  color: rgba(0,0,0,.4);
-  padding-bottom: 10px;
-  color: lighten(@highlight, 10%);
-}
-
-.ylabel {
-  top: 40%;
-  left: -40px;
-  position: absolute;
-  transform: rotate(270deg);
-  font-size: 12px;
-  color: rgba(0,0,0,.4);
-}
-
-.xlabel {
+.player {
   text-align: center;
-  font-size: 12px;
-  color: rgba(0,0,0,.4);
-}
 
-.subtitle {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: bold;
-  color: rgba(0,0,0,.5);
-}
+  svg {
+    display: block;
+    width: 60px;
 
-.source {
-  padding-top: 10px;
-  font-style: italic;
-}
-.source, .credit {
-  font-size: 11px;
-  color: rgba(0,0,0,.4);
-
-  @media @mobile {
-    font-size: 10px;
-  }
-}
-.credit {
-  text-align: right;
-  margin-top: -15px;
-
-  @media (max-width: 550px) {
-    text-align: left;
-    margin-top: 0;
-  }
-}
-
-.legend {
-  color: rgba(0,0,0,.5);
-  font-size: 14px;
-
-  &.centered {
-    text-align: center;
+    #injury [id] {
+      display: none;
+    }
   }
 
-  .category {
-    display: inline-block;
-    padding-right: 20px;
-  }
+  &.head #injury #head { display: block }
+  &.hamstring #injury #hamstring { display: block }
+  &.hand #injury #hand { display: block }
+  &.foot #injury #foot { display: block }
+  &.knee #injury #knee { display: block }
+  &.shoulder #injury #shoulder { display: block }
 
-  .swatch {
-    width: 20px;
-    height: 10px;
-    margin-right: 2px;
+}
+
+.players-by-line {
+
+  .player {
     display: inline-block;
   }
-}
-
-.stretch-legend {
-  color: rgba(0,0,0,.5);
-  font-size: 14px;
-  padding-bottom: 30px;
-
-  .swatch {
-    margin-top: 5px;
-    width: 14%;
-    max-width: 62px;
-    height: 10px;
-    float: left;
-    text-align: center;
-    font-size: 12px;
-
-    .number {
-      margin-top: 12px;
-    }
-  }
-}
-
-.ct-bar, .ct-point, .ct-slice-pie {
-  cursor: pointer;
-}
-
-.ct-bar:hover, .ct-point:hover {
-  stroke: @highlight !important;
-}
-.ct-slice-pie:hover {
-  fill: @highlight !important;
-}
-
-.tooltip {
-  position: absolute;
-  display: inline-block;
-  line-height: 1.1;
-  padding: 0.4em;
-  background: white;
-  border: 1px dashed @df-border-gray;
-  color: rgba(0,0,0,.5);
-  // font-weight: bold;
-  font-size: 14px;
-  text-align: center;
-  pointer-events: none;
-  stroke: #679BD2;
-  z-index: 1;
-  @media @mobile {
-    min-width: 0;
-  }
-}
-
-.ct-label {
-  @media @mobile {
-    font-size: 10px;
-  }
-}
-.ct-horizontal {
-  font-weight: bold;
-  color: rgba(0,0,0,.6);
-  padding-top: 5px;
-}
-
-
-.injuries {
-  .ct-label {
-    color: rgba(0,0,0,.5);
-
-    &.ct-vertical {
-      font-size: 16px;
-      font-weight: bold;
-
-      @media @tablet {
-        font-size: 14px;
-      }
-
-      @media @mobile {
-        font-size: 10.5px;
-        font-weight: 400;
-      }
-    }
-    &.ct-horizontal {
-      margin-left: -10px;
-      font-weight: 400;
-    }
-  }
-  .ct-bar {
-    stroke-width: 20px;
-
-    @media @mobile {
-      stroke-width: 12px;
-    }
-  }
-  .ct-series-a line {
-    stroke: @light;
-  }
-  @media @mobile {
-    foreignobject, .ct-label {
-      width: 200px !important;
-    }
-  }
-}
-
-.selectedStar {
-  color: red;
-}
-.notSelectedStar {
-  color: blue;
 }

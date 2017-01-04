@@ -12,23 +12,46 @@
 
     <responsive-child>
 
-    <select class="choose-player">
-      <% for (var jersey in json.players) { %>
-      <option value="<%= jersey %>">#<%= jersey %> - <%= json.players[jersey].name %></option>
-      <% } %>
-    </select>
-    
-    <div class="buttons"> 
-      GAME: <%
-        for(i = 1; i <17; i++){%>
-        <button type="button" class="game-button" data-game="<%= i %>">
-        <%= i%>
-        <% } %>
-        </button>
-    </div>
+    <% 
+      var teams = {offense: [], defense: [], special: []};
+      for (var k in json.players) {
+        var player = json.players[k];
+        player.jersey = k;
+        teams[player.team].push(player);
+        player.season = {};
+        player.missed = {};
+        player.injuries = [];
+      }
 
-    <div class="chart" id="chart-box">
-    </div>
+      json.injuries.forEach(function(injury) {
+        var player = json.players[injury.player];
+        player.missed[injury.game] = true;
+        player.season[injury.injuries] = true;
+        player.injuries.push(injury);
+      });
+    %>
+
+      <section class="lineups">
+        <% for (var line in teams) { %>
+        <h1><%= line %></h1>
+        <div class="players-by-line">
+          <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
+          <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>">
+            <savage-image src="./assets/player-injury.svg"></savage-image>
+            #<%= p.jersey %>
+          </div>
+          <% }) %>
+        </div>
+        <% } %>
+      </section>
+
+      <section class="details">
+      
+      </section>
+
+      <section class="chart">
+
+      </section>  
     
     </responsive-child>
 
