@@ -13,7 +13,7 @@ var detailTemplate = dot.compile(require("./_detail.html"));
 var detailElement = document.querySelector(".details");
 var selectPlayer = document.querySelector(".choose-player");
 
-var currentGame = 6;
+var currentGame = 1;
 
 var showDetail = function(id) {
   var player = window.players[id];
@@ -32,7 +32,9 @@ var onChoosePlayer = function() {
 };
 
 // $(".player").on("click", onClickPlayer);
-$(".player").forEach(el => el.addEventListener("click", onClickPlayer));
+var players = $(".player")
+players.forEach(el => el.addEventListener("click", onClickPlayer));
+players.forEach(el => el.addEventListener("keyup", onClickPlayer));
 
 selectPlayer.addEventListener("change", onChoosePlayer);
 
@@ -42,9 +44,25 @@ var switchTab = function(e) {
   this.classList.add("activated");
   var id = this.getAttribute("href");
   $(".players-by-line").forEach(t => t.classList.add("hidden"));
-  document.querySelector(id).classList.remove("hidden");
+  var shown = document.querySelector(id);
+  shown.classList.remove("hidden");
+
+  var first = shown.querySelector(".player");
+  var p = first.getAttribute("data-jersey");
+
+  showDetail(p);
+  selectPlayer.value = p;
+
 };
 
 $(".switch-tab").forEach(el => el.addEventListener("click", switchTab));
 
 switchTab.call(document.querySelector(".switch-tab"));
+
+detailElement.addEventListener("click", function(e) {
+  var target = e.target;
+  var game = target.getAttribute("data-game");
+  if (!game) return;
+  
+});
+

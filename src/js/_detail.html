@@ -1,20 +1,25 @@
+<div class="injury-listing">
+  <h2 class="a-player-name"><%= data.player.name%></h2>
+  <% if (!data.player.injuries.length) { %>
+    <p>This player missed no games due to injury.</p>
+  <% } else { %>
+    <p>This player missed the following games due to these injuries:</p>
+    <ul class="injuries-list">
+    <% data.player.injuries.forEach(function(injury) { %>
+      <li> <b>Game <%= injury.game %></b>: <%= injury.specific%> injury
+    <% }); %>
+    </ul>
+  <% } %>
+</div>
+
 <div class="image-container <%= Object.keys(data.player.season).join(" ") %>">
 	<savage-image src="./assets/player-injury.svg"></savage-image>
 </div>
 
 <div class="games-missed">
-  <% for (var i = 1; i < 17; i++) { %>
-    <div class="game <%= i == data.game ? "current" : ""%> <%= data.player.missed[i] ? "missed" : "" %>">
+    <% for (var i = 1; i < 17; i++) { %>
+    <div class="game <%= i == data.game ? "current" : ""%> <%= data.player.missed[i] ? "missed" : "" %>" data-game="<%= i %>">
       <%= i %>
     </div>
   <% }; %>
-</div>
-
-<div class="injury-listing">
-	<h2><%= data.player.name%></h2>
-	<ul>
-  <% data.player.injuries.forEach(function(injury) { %>
-    <li> <%= injury.specific%> injury in game <%= injury.game %>
-  <% }); %>
-	</ul>
 </div>

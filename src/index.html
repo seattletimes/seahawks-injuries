@@ -14,6 +14,9 @@
 
     <% 
       var teams = {offense: [], defense: [], special: []};
+
+      var counter = {};
+
       for (var k in json.players) {
         var player = json.players[k];
         player.jersey = k;
@@ -28,7 +31,16 @@
         player.missed[injury.game] = true;
         player.season[injury.injuries] = true;
         player.injuries.push(injury);
+
+        if (!counter[injury.game]) {
+          counter[injury.game] = 1;
+        }
+        else {
+          counter[injury.game]++;
+        }
+
       });
+
     %>
 
       <main class="interactive">
@@ -37,13 +49,13 @@
           <nav>
             <a href="#offense" class="switch-tab">Offense</a> | 
             <a href="#defense" class="switch-tab">Defense</a> | 
-            <a href="#special" class="switch-tab">Special Teams</a> | 
+            <a href="#special" class="switch-tab">Special Teams</a>
           </nav>
           <% for (var line in teams) { %>
           <div class="players-by-line" id="<%= line %>">
-            <h1><%= line %></h1>
+            <!-- <h1><%= line %></h1> -->
             <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
-            <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>">
+            <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>" tabindex="0">
               <savage-image src="./assets/player-injury.svg"></savage-image>
               #<%= p.jersey %>
             </div>
@@ -66,8 +78,17 @@
         </section>
 
         <section class="chart">
-
-        </section>  
+          <div class="bar-container">
+          <% for (var g in counter) { %>
+            <div class="bar" style="height: <%= (counter[g] / 7 * 100).toFixed(2) %>%" data-game="<%= g %>">
+              <div class="coloring"></div>
+              <div class="game-number"><%= g %></div>
+              <div class="value"><%= counter[g] %></div>
+            </div>
+          <% } %>
+          </div>
+          <div class="axis-label">Game</div>
+        </section>
 
       </main>
     
