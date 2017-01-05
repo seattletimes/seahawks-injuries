@@ -1,12 +1,27 @@
 @import "seattletimes";
 @import (inline) "npm://chartist/dist/chartist.min.css";
 
+main.interactive {
+  max-width: 630px;
+  font-family: @df-sans;
+}
+
+.switch-tab {
+  &.activated {
+    font-weight: bold;
+  }
+}
+
+[class="player "] {
+  svg #outline_60_ path, svg #details path { fill: @df-middle-gray }
+}
+
 .player {
   text-align: center;
 
   svg {
     display: block;
-    width: 60px;
+    width: 40px;
 
     #injury [id] {
       display: none;
@@ -24,7 +39,45 @@
 
 .players-by-line {
 
+  &.hidden {
+    display: none;
+  }
+
   .player {
     display: inline-block;
+  }
+}
+
+.details {
+  .display-flex();
+  .align-items(flex-start);
+
+  .image-container {
+    .flex(0 0 30%);
+  }
+
+  .games-missed {
+    .flex(0 0 40%);
+    .display-flex();
+    .flex-wrap(wrap);
+    .justify-content(space-around);
+    .align-items(flex-start);
+
+    .game {
+      .flex(0 0 21%);
+      padding: 8px 16px;
+      margin: 8px 0;
+      text-align: center;
+      border: 2px solid black;
+      border-radius: 4px;
+
+      &.current {
+        border: 4px solid black;
+      }
+    }
+
+    .missed {
+      background: @st-light-green;
+    }
   }
 }

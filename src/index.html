@@ -31,27 +31,45 @@
       });
     %>
 
-      <section class="lineups">
-        <% for (var line in teams) { %>
-        <h1><%= line %></h1>
-        <div class="players-by-line">
-          <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
-          <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>">
-            <savage-image src="./assets/player-injury.svg"></savage-image>
-            #<%= p.jersey %>
+      <main class="interactive">
+
+        <section class="lineups">
+          <nav>
+            <a href="#offense" class="switch-tab">Offense</a> | 
+            <a href="#defense" class="switch-tab">Defense</a> | 
+            <a href="#special" class="switch-tab">Special Teams</a> | 
+          </nav>
+          <% for (var line in teams) { %>
+          <div class="players-by-line" id="<%= line %>">
+            <h1><%= line %></h1>
+            <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
+            <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>">
+              <savage-image src="./assets/player-injury.svg"></savage-image>
+              #<%= p.jersey %>
+            </div>
+            <% }) %>
           </div>
-          <% }) %>
-        </div>
-        <% } %>
-      </section>
+          <% } %>
+        </section>
 
-      <section class="details">
-      
-      </section>
+        <section>
+           <select class="choose-player">
+              <% for (var k in json.players) { %>
+              <% var player = json.players[k] %>
+              <option value="<%= k %>">#<%= player.jersey %> - <%= player.name %></option>
+              <% } %>
+            </select>
+        </section>
 
-      <section class="chart">
+        <section class="details">
+        
+        </section>
 
-      </section>  
+        <section class="chart">
+
+        </section>  
+
+      </main>
     
     </responsive-child>
 
