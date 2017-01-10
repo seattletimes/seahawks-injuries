@@ -23,6 +23,7 @@
         teams[player.team].push(player);
         player.season = {};
         player.missed = {};
+        player.specific = {}
         player.injuries = [];
       }
 
@@ -30,6 +31,7 @@
         var player = json.players[injury.player];
         player.missed[injury.game] = true;
         player.season[injury.injuries] = true;
+        player.specific[injury.specific] = true;
         player.injuries.push(injury);
 
         if (!counter[injury.game]) {
@@ -90,6 +92,10 @@
           <div class="axis-label">Game</div>
         </section>
 
+        <section class="game-blurb">
+
+        </section>
+
       </main>
     
     </responsive-child>
@@ -97,6 +103,7 @@
     <script>
       window.players = <%= JSON.stringify(json.players) %>;
       window.injuries = <%= JSON.stringify(json.injuries) %>;
+      window.blurbs = <%= JSON.stringify(json.blurbs) %>;
     </script>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

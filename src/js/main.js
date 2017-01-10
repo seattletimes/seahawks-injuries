@@ -12,6 +12,7 @@ var dot = require("./lib/dot");
 var detailTemplate = dot.compile(require("./_detail.html"));
 var detailElement = document.querySelector(".details");
 var selectPlayer = document.querySelector(".choose-player");
+var barElements = $(".bar");
 
 //default game number
 var currentGame = null;
@@ -34,10 +35,10 @@ var onChoosePlayer = function() {
 
 //function for highlighting bar chart by adding .active class
 var highlightChart = function(g) {
-  $(".bar.active").forEach(t => t.classList.remove("active"));
-  var barGame = $(".data-game");
-  // do I need to do something with innerHTML?
-
+  var active = document.querySelector(".bar.active");
+  if (active) active.classList.remove("active");
+  var bar = document.querySelector(`.bar[data-game="${g}"]`);
+  bar.classList.add("active");
 }
 
 
@@ -68,18 +69,28 @@ var switchTab = function(e) {
 $(".switch-tab").forEach(el => el.addEventListener("click", switchTab));
 
 switchTab.call(document.querySelector(".switch-tab"));
- 
 
 detailElement.addEventListener("click", function(e) {
   var target = e.target;
   var game = target.getAttribute("data-game");
   if (!game) return; // I added items below this line
-  console.log(game);
   // when you click on a game remove current and add to the one clicked
   $(".game.current").forEach(t => t.classList.remove("current"));
   e.target.classList.add("current");
-  //some function here
   highlightChart(game);
 });
 
+var clickBar = function() {
+  var game = this.getAttribute("data-game");
+  $(".game").forEach(function(t) {
+    var g = t.getAttribute("data-game");
+    if (g == game) {
+      t.classList.add("current");
+    } else {
+      t.classList.remove("current");
+    }
+  });
+  highlightChart(game);
+}
 
+barElements.forEach(bar => bar.addEventListener("click", clickBar));
