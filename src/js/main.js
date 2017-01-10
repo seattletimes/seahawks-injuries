@@ -13,6 +13,8 @@ var detailTemplate = dot.compile(require("./_detail.html"));
 var detailElement = document.querySelector(".details");
 var selectPlayer = document.querySelector(".choose-player");
 var barElements = $(".bar");
+var descriptionTemplate = dot.compile(require("./_blurbs.html"));
+var descriptionElement = document.querySelector(".game-blurb");
 
 //default game number
 var currentGame = null;
@@ -40,6 +42,12 @@ var highlightChart = function(g) {
   var bar = document.querySelector(`.bar[data-game="${g}"]`);
   bar.classList.add("active");
 }
+
+//function for game blurbs
+var showBlurbs = function(id) {
+  var blurb = window.blurbs[id];
+  descriptionElement.innerHTML = descriptionTemplate({blurb, id});
+};
 
 
 // $(".player").on("click", onClickPlayer);
@@ -77,7 +85,9 @@ detailElement.addEventListener("click", function(e) {
   // when you click on a game remove current and add to the one clicked
   $(".game.current").forEach(t => t.classList.remove("current"));
   e.target.classList.add("current");
+  currentGame = game;
   highlightChart(game);
+  showBlurbs(game);
 });
 
 var clickBar = function() {
@@ -90,7 +100,9 @@ var clickBar = function() {
       t.classList.remove("current");
     }
   });
+  currentGame = game;
   highlightChart(game);
+  showBlurbs(game);
 }
 
 barElements.forEach(bar => bar.addEventListener("click", clickBar));

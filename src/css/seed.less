@@ -32,21 +32,29 @@ nav {
   }
 
   svg {
-    display: block;
     width: 40px;
+  }
+}
+
+.player, .image-container {
+  svg {
+    display: block;
 
     #injury [id] {
       display: none;
     }
   }
 
-  &.head #injury #head { display: block }
-  &.hamstring #injury #hamstring { display: block }
-  &.hand #injury #hand { display: block }
-  &.foot #injury #foot { display: block }
-  &.knee #injury #knee { display: block }
-  &.shoulder #injury #shoulder { display: block }
+  .wound(@injury) {
+    &.@{injury} #injury #@{injury} { display: block }
+  }
 
+  .wound(head);
+  .wound(hamstring);
+  .wound(hand);
+  .wound(foot);
+  .wound(knee);
+  .wound(shoulder);
 }
 
 .players-by-line {
