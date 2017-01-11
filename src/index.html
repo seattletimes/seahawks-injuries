@@ -80,6 +80,8 @@
         </section>
 
         <section class="chart">
+        <!-- <p>Below is a look at the number of players missing per game due to an injury.</p> -->
+        <h3 class="bar-label">Number of players missing per game</h3>
           <div class="bar-container">
           <% for (var g in counter) { %>
             <div class="bar" style="height: <%= (counter[g] / 7 * 100).toFixed(2) %>%" data-game="<%= g %>">
