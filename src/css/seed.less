@@ -218,3 +218,25 @@ nav {
     color: @df-middle-gray;
   }
 }
+
+.source {
+  padding-top: 10px;
+  font-style: italic;
+}
+.source, .credit {
+  font-size: 11px;
+  color: rgba(0,0,0,.4);
+
+  @media @mobile {
+    font-size: 10px;
+  }
+}
+.credit {
+  text-align: right;
+  margin-top: -15px;
+
+  @media (max-width: 550px) {
+    text-align: left;
+    margin-top: 0;
+  }
+}
