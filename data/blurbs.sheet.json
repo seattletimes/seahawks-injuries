@@ -1,50 +1,66 @@
 {
   "1": {
-    "description": "Game #1 was ... description here"
+    "description": "Seattle's season-opening 12-10 home win over Miami featured a last-minute drive led by Russell Wilson, who also suffered an ankle injury in the third quarter that forced him to miss a few plays. Running back C.J. Prosise also broke his wrist in this game, forcing him to miss the next four games.\n",
+    "title": "Week 1 vs. Miami Dolphins"
   },
   "2": {
-    "description": "Game #2 was ... description here"
+    "description": "Seattle went on the road and lost 9-3 to Los Angeles and also lost running back Thomas Rawls to what was later diagnosed as a hairline fracture in his fibula. Rawls would miss the next seven games. Tyler Lockett also sprained his knee but returned to play the following game.\n",
+    "title": "Week 2 vs. Los Angeles Rams"
   },
   "3": {
-    "description": "description 3"
+    "description": "Seattle rolled to a 37-18 victory at home over San Francisco but Russell Wilson suffered his second leg injury in three games, this time a sprained MCL in his left knee. With the game turning one sided, Wilson was pulled from the game. This was the first game in which both Thomas Rawls and C.J. Prosise sat out, forcing the Seahawks to rely heavily on Christine Michael.",
+    "title": "Week 3 vs. San Francisco 49ers"
   },
   "4": {
-    "description": "description 4"
-  },
-  "5": {
-    "description": "description 5"
+    "description": "Seattle cruised to a relatively drama-free 27-17 win over the Jets in East Rutherford, N.J. Russell Wilson, despite being hobbled by ankle and knee troubles, had an efficient game and carried the Seahawks on offense.",
+    "title": "Week 4 vs. New York Jets"
   },
   "6": {
-    "description": "description 6"
+    "description": "After a bye week, Seattle had an eventful 26-24 win over Atlanta at CenturyLink Field. Defensive end Michael Bennett suffered a knee injury after a cut block by the Falcons' Jake Matthews, a move that left Bennett irate after the game. Though he played the following game, he would eventually get surgery and miss five games. Safety Kam Chancellor (groin) and defensive end Frank Clark (hamstring) missed the game due to injury.",
+    "title": "Week 6 vs. Atlanta Falcons"
   },
   "7": {
-    "description": "description 7"
+    "description": "Seattle played at Arizona and wound up with a 6-6 tie, the first in franchise history. Safety Kam Chancellor missed his second straight game due to a groin injury.\n",
+    "title": "Week 7 vs. Arizona Cardinals"
   },
   "8": {
-    "description": "description 8"
+    "description": "Seattle dropped a 25-20 game at New Orleans, playing without defensive end Michael Bennett, safety Kam Chancellor and running back Thomas Rawls. Seahawks defensive tackle Tony McDaniel suffered a sprained ankle during the game, but returned to action for the next game.",
+    "title": "Week 8 vs. New Orleans Saints"
   },
   "9": {
-    "description": "description 9"
+    "description": "Seattle eked out a 31-25 win over Buffalo at CenturyLink Field on \"Monday Night Football.\" The defense was once again without defensive end Michael Bennett and safety Kam Chancellor. ",
+    "title": "Week 9 vs. Buffalo Bills"
   },
   "10": {
-    "description": "description10"
+    "description": "Seattle went into New England and emerged with a 31-24 victory despite playing without defensive end Michael Bennett and running back Thomas Rawls. Running back C.J. Prosise, in his third game back from a broken wrist, made his first start and rushed for 66 yards and picked up 87 yards receiving.",
+    "title": "Week 10. vs. New England Patriots"
   },
   "11": {
-    "description": "description 11"
+    "description": "Seattle returned home and picked up a 26-15 win over Philadelphia but paid the price with a shoulder injury to running back C.J. Prosise, who would miss the rest of the regular season. Also getting hurt in this game were safety Earl Thomas (hamstring), running back Troymaine Pope (ankle) and cornerback DeShawn Shead (hamstring). ",
+    "title": "Week 11 vs. Philadelphia Eagles"
   },
   "12": {
-    "description": "description 12"
+    "description": "A depleted Seattle team suffered a 14-5 loss in Tampa Bay. Safety Earl Thomas missed the first game of his career after starting 106 consecutive regular-season games (plus 12 more in the playoffs), while others who sat out with injuries included running back C.J. Prosise (shoulder), cornerback DeShawn Shead (hamstring) and defensive end Michael Bennett (knee). ",
+    "title": "Week 12 vs. Tampa Bay Buccaneers"
   },
   "13": {
-    "description": "description 13"
+    "description": "Seattle beat Carolina 40-7, its largest margin of victory this season. But safety Earl Thomas' return to the lineup was all too brief, as he broke his leg during the second quarter, forcing him to miss the rest of the season. Tight end Luke Willson (knee) and wide receiver Paul Richardson (hamstring) sat out the game due to injuries.\n",
+    "title": "Week 13 vs. Carolina Panthers"
   },
   "14": {
-    "description": "description 14"
+    "description": "Seattle was trounced in Green Bay 38-10 in its first game without safety Earl Thomas. It was the Seahawks' worst loss since the 2010 season.\n",
+    "title": "Week 14 vs. Green Bay Packers"
   },
   "15": {
-    "description": "description 15"
+    "description": "Seattle clinched the NFC West title by beating Los Angeles 24-3 at CenturyLink Field in a Thursday-night game. Punter Jon Ryan had to leave the game in the fourth quarter after suffering a concussion at the end of a 26-yard run off a fake punt. Ryan returned for the next game.",
+    "title": "Week 15 vs. Los Angeles Rams"
   },
   "16": {
-    "description": "description 16"
+    "description": "Seattle suffered a surprising 34-31 home loss to Arizona on Christmas Eve in a game that also saw the Seahawks lose wide receiver Tyler Lockett for the season after a gruesome right leg injury. Running back Thomas Rawls bruised his shoulder and missed the second half of the game but did return for the following game. ",
+    "title": "Week 16 vs. Arizona Cardinals"
+  },
+  "17": {
+    "description": "Seattle pulled out a 25-23 win on the road against San Francisco to end the regular season. It was the first game without wide receiver Tyler Lockett and it showed at times on offense. Long snapper Nolan Frese sprained an ankle on his first snap of the game, but played through it. He would eventually miss Seattle's first playoff game, with Tyler Ott taking over long-snapping duties.",
+    "title": "Week 17 vs. San Francisco 49ers"
   }
 }

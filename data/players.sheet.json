@@ -71,7 +71,7 @@
   },
   "31": {
     "name": "Kam Chancellor",
-    "position": "ss",
+    "position": "SS",
     "team": "defense"
   },
   "33": {
@@ -96,7 +96,7 @@
   },
   "39": {
     "name": "George Farmer",
-    "position": "rb",
+    "position": "RB",
     "team": "offense"
   },
   "40": {
@@ -136,7 +136,7 @@
   },
   "53": {
     "name": "Joey Hunt",
-    "position": "c",
+    "position": "C",
     "team": "offense"
   },
   "54": {
@@ -176,7 +176,7 @@
   },
   "68": {
     "name": "Justin Britt",
-    "position": "c",
+    "position": "C",
     "team": "offense"
   },
   "70": {
@@ -191,7 +191,7 @@
   },
   "74": {
     "name": "George Fant",
-    "position": "t",
+    "position": "T",
     "team": "offense"
   },
   "76": {
@@ -270,8 +270,8 @@
     "team": "defense"
   },
   "27A": {
-    "name": "Tharold Simon",
-    "position": "CB",
+    "name": "Tharold Simon*",
+    "position": "CB - left team midseason",
     "team": "defense"
   },
   "27B": {

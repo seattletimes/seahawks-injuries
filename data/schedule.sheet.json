@@ -151,7 +151,8 @@
   {
     "undefined": "Tyler Lockett",
     "position": "WR",
-    "player #": 16
+    "player #": 16,
+    "Game 16: Vs. 49ers": "leg"
   },
   {
     "undefined": "Cassius Marsh",
@@ -298,7 +299,11 @@
     "undefined": "Earl Thomas",
     "position": "FS",
     "player #": 29,
-    "Game 11: Vs. Buccaneers (tampa bay)": "hamstring"
+    "Game 11: Vs. Buccaneers (tampa bay)": "hamstring",
+    "Game 13: Vs. Packers (Green Bay)": "leg",
+    "Game 14: Vs. Rams": "leg",
+    "Game 15: Vs. Cardinals (arizona)": "leg\n",
+    "Game 16: Vs. 49ers": "leg\n"
   },
   {
     "undefined": "Neiko Thorpe",

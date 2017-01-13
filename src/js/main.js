@@ -46,7 +46,7 @@ var highlightChart = function(g) {
 //function for game blurbs
 var showBlurbs = function(id) {
   var blurb = window.blurbs[id];
-  descriptionElement.innerHTML = descriptionTemplate({blurb, id});
+  descriptionElement.innerHTML = descriptionTemplate({blurb});
 };
 
 
