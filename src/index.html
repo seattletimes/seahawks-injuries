@@ -59,8 +59,10 @@
           </nav>
           <% for (var line in teams) { %>
           <div class="players-by-line" id="<%= line %>">
+            <% var injuredPlayers = teams[line].sort((a, b) => b.injuries.length - a.injuries.length).filter(function(p) { return p.injuries.length > 0 }); %>
+            <div class="injury-description"><%= injuredPlayers.length %> out of <%= teams[line].length %> players missed games due to injury</div>
             <!-- <h1><%= line %></h1> -->
-            <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
+            <% injuredPlayers.forEach(function(p) { %>
               <% if (p.injuries.length > 0) { %>
                 <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>" tabindex="0">
                   <savage-image src="./assets/player-injury.svg"></savage-image>
