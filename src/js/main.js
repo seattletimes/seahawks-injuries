@@ -15,14 +15,22 @@ var selectPlayer = document.querySelector(".choose-player");
 var barElements = $(".bar");
 var descriptionTemplate = dot.compile(require("./_blurbs.html"));
 var descriptionElement = document.querySelector(".game-blurb");
+var injuriesListTemplate = dot.compile(require("./_injurylist.html"));
 
 //default game number
 var currentGame = null;
+var currentPlayer = null;
 
 var showDetail = function(id) {
   var player = window.players[id];
+    currentPlayer = player;
   detailElement.innerHTML = detailTemplate({ player, game: currentGame });
+  showInjuryList(player, currentGame);
 };
+
+var showInjuryList = function(player, game) {
+  detailElement.querySelector(".injury-listing").innerHTML = injuriesListTemplate({ player, game });
+}
 
 var onClickPlayer = function(e) {
   var id = this.getAttribute("data-jersey");
@@ -65,7 +73,7 @@ var switchTab = function(e) {
   $(".players-by-line").forEach(t => t.classList.add("hidden"));
   var shown = document.querySelector(id);
   shown.classList.remove("hidden");
- 
+
   var first = shown.querySelector(".player");
   var p = first.getAttribute("data-jersey");
 
@@ -88,6 +96,7 @@ detailElement.addEventListener("click", function(e) {
   currentGame = game;
   highlightChart(game);
   showBlurbs(game);
+  showInjuryList(currentPlayer, currentGame);
 });
 
 var clickBar = function() {
@@ -103,6 +112,7 @@ var clickBar = function() {
   currentGame = game;
   highlightChart(game);
   showBlurbs(game);
+  showInjuryList(currentPlayer, currentGame);
 }
 
 barElements.forEach(bar => bar.addEventListener("click", clickBar));

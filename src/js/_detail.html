@@ -1,15 +1,4 @@
 <div class="injury-listing">
-  <h2 class="a-player-name"><%= data.player.name%> (<%= data.player.position%>)</h2>
-  <% if (!data.player.injuries.length) { %>
-    <p>This player missed no games due to injury.</p>
-  <% } else { %>
-    <p>This player missed the following games due to these injuries:</p>
-    <ul class="injuries-list">
-    <% data.player.injuries.forEach(function(injury) { %>
-      <li> <b>Week <%= injury.game %></b>: <%= injury.specific%>
-    <% }); %>
-    </ul>
-  <% } %>
 </div>
 
 <div class="image-container <%= Object.keys(data.player.season).join(" ") %>">
