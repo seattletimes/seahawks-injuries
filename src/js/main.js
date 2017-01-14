@@ -65,7 +65,7 @@ var switchTab = function(e) {
   $(".players-by-line").forEach(t => t.classList.add("hidden"));
   var shown = document.querySelector(id);
   shown.classList.remove("hidden");
-
+ 
   var first = shown.querySelector(".player");
   var p = first.getAttribute("data-jersey");
 
