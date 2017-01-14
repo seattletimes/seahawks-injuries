@@ -16,6 +16,7 @@
       var teams = {offense: [], defense: [], special: []};
 
       var counter = {};
+      var playerCounter = {};
 
       for (var k in json.players) {
         var player = json.players[k];
@@ -57,6 +58,7 @@
             <a href="#defense" class="switch-tab">Defense</a> | 
             <a href="#special" class="switch-tab">Special Teams</a>
           </nav>
+<!--           <p> -->
           <% for (var line in teams) { %>
           <div class="players-by-line" id="<%= line %>">
             <!-- <h1><%= line %></h1> -->
