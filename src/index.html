@@ -12,7 +12,7 @@
 
     <responsive-child>
 
-    <% 
+    <%
       var teams = {offense: [], defense: [], special: []};
 
       var counter = {};
@@ -53,18 +53,20 @@
 
         <section class="lineups">
           <nav>
-            <a href="#offense" class="switch-tab">Offense</a> | 
-            <a href="#defense" class="switch-tab">Defense</a> | 
+            <a href="#offense" class="switch-tab">Offense</a> |
+            <a href="#defense" class="switch-tab">Defense</a> |
             <a href="#special" class="switch-tab">Special Teams</a>
           </nav>
           <% for (var line in teams) { %>
           <div class="players-by-line" id="<%= line %>">
             <!-- <h1><%= line %></h1> -->
             <% teams[line].sort((a, b) => b.injuries.length - a.injuries.length).forEach(function(p) { %>
-            <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>" tabindex="0">
-              <savage-image src="./assets/player-injury.svg"></savage-image>
-              #<%= p.jersey %>
-            </div>
+              <% if (p.injuries.length > 0) { %>
+                <div class="player <%= Object.keys(p.season).join(" ") %>" data-jersey="<%= p.jersey %>" tabindex="0">
+                  <savage-image src="./assets/player-injury.svg"></savage-image>
+                  #<%= p.jersey %>
+                </div>
+              <% } %>
             <% }) %>
           </div>
           <% } %>
@@ -80,7 +82,7 @@
         </section>
 
         <section class="details">
-        
+
         </section>
 
         <section class="chart">
@@ -125,7 +127,7 @@
         <div class="credit">THOMAS WILBURN, EMILY M. ENG AND VANESSA MARTINEZ / THE SEATTLE TIMES</div>
 
       </main>
-    
+
     </responsive-child>
 
     <script>
