@@ -46,6 +46,10 @@
     %>
 
       <main class="interactive">
+        <section class="title-description">
+          <h1 class="interactive-title">2016 Seahawks injury tracker</h1>
+          <p class="intro">The 2016 season was memorable for the Seahawks in many ways, including injuries. There were the season-ending injuries to Earl Thomas and Tyler Lockett, but how banged up was Seattle throughout the season? We take stock of games missed due to injury. Note: The bye week took place in Week 5.</p>
+        </section>
 
         <section class="lineups">
           <nav>
@@ -81,14 +85,32 @@
 
         <section class="chart">
         <!-- <p>Below is a look at the number of players missing per game due to an injury.</p> -->
-        <h3 class="bar-label">Number of players missing per game</h3>
+        <h3 class="bar-label">Number of players out with injury by week</h3>
           <div class="bar-container">
           <% for (var g in counter) { %>
-            <div class="bar" style="height: <%= (counter[g] / 7 * 100).toFixed(2) %>%" data-game="<%= g %>">
-              <div class="coloring"></div>
-              <div class="game-number"><%= g %></div>
-              <div class="value"><%= counter[g] %></div>
-            </div>
+            <% if (g < 5) { %>
+              <div class="bar" style="height: <%= (counter[g] / 7 * 100).toFixed(2) %>%" data-game="<%= g %>">
+                <div class="coloring"></div>
+                <div class="game-number"><%= g %></div>
+                <div class="value"><%= counter[g] %></div>
+              </div>
+            <% } %>
+          <% } %>
+
+          <div class="bar" style="height: 0px" data-game="5">
+            <div class="coloring"></div>
+            <div class="game-number"><%= "5*" %></div>
+            <!-- <div class="value">BYE</div> -->
+          </div>
+
+          <% for (var g in counter) { %>
+            <% if (g > 5) { %>
+              <div class="bar" style="height: <%= (counter[g] / 7 * 100).toFixed(2) %>%" data-game="<%= g %>">
+                <div class="coloring"></div>
+                <div class="game-number"><%= g %></div>
+                <div class="value"><%= counter[g] %></div>
+              </div>
+            <% } %>
           <% } %>
 
           </div>
@@ -96,10 +118,10 @@
         </section>
 
         <section class="game-blurb">
-          <p class="defaultMessage">Click on a game for a description of the game.</p>
+          <p class="defaultMessage">Click on a week for game and injury highlights.</p>
         </section>
 
-        <div class="source"> Source: Seattle Seahawks</div>
+        <div class="source">*Week 5 was a bye week. <br>Source: Seattle Seahawks</div>
         <div class="credit">THOMAS WILBURN, EMILY M. ENG AND VANESSA MARTINEZ / THE SEATTLE TIMES</div>
 
       </main>

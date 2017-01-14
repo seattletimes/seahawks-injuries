@@ -18,9 +18,9 @@ nav {
   padding: 16px 0;
 }
 
-[class="player "] {
-  svg #outline_60_ path, svg #details path { fill: @df-middle-gray }
-}
+// [class="player "] {
+//   svg #outline_60_ path, svg #details path { fill: @df-middle-gray }
+// }
 
 .player {
   text-align: center;
@@ -243,5 +243,19 @@ nav {
 
 .game-title {
   text-transform: uppercase;;
+  font-size: 18px;
+}
+
+.interactive-title {
+  @media @mobile {
+    font-size: 30px;
+  }
+}
+
+.intro {
+  font-size: 18px;
+}
+
+.defaultMessage, .selectedMessage {
   font-size: 18px;
 }

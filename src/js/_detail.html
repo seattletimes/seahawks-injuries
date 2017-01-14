@@ -13,13 +13,27 @@
 </div>
 
 <div class="image-container <%= Object.keys(data.player.season).join(" ") %>">
-  <savage-image src="./assets/<%= data.player.team %>.svg"></savage-image>
+  
+  <% if (data.player.jersey == 48) {%>
+    <savage-image src="./assets/special2.svg"></savage-image>
+  <% } else { %> 
+    <savage-image src="./assets/<%= data.player.team %>.svg"></savage-image>
+  <% } %>
+
 </div>
 
 <div class="games-missed">
-    <% for (var i = 1; i < 17; i++) { %>
+    <% for (var i = 1; i < 5; i++) { %>
     <div class="game <%= i == data.game ? "current" : ""%> <%= data.player.missed[i] ? "missed" : "" %>" data-game="<%= i %>">
       <%= i %>
     </div>
   <% }; %>
+
+  <% for (var i = 6; i < 18; i++) { %>
+    <div class="game <%= i == data.game ? "current" : ""%> <%= data.player.missed[i] ? "missed" : "" %>" data-game="<%= i %>">
+      <%= i %>
+    </div>
+  <% }; %>
+
+
 </div>
